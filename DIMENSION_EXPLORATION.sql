@@ -1,3 +1,5 @@
+use DataWarehouse;
+go
 --Dimension exploration
 
 --explore all different countries the customers are from
