@@ -1,1 +1,11 @@
+--Dimension exploration
 
+--explore all different countries the customers are from
+select distinct country from gold.dim_customers
+
+--explore all the categories of the product 'the major divisions'
+select distinct category,
+subcategory,
+product_name 
+from gold.dim_products 
+order by 1,2,3
