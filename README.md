@@ -2,34 +2,34 @@
 
 ## Overview
 
-This project demonstrates **Basic Exploratory Data Analysis (EDA)** performed on tables from my **Data Warehouse project**.
+This project presents **Basic Exploratory Data Analysis (EDA)** performed on tables from my **Data Warehouse project**.
 
-The dataset follows a **dimensional modeling structure**, consisting of a **fact table (`sales`)** and two **dimension tables (`customers`, `products`)**.
+The dataset follows a **dimensional modeling structure** consisting of a **fact table (`sales`)** and two **dimension tables (`customers`, `products`)**.
 
-The goal of this analysis is to explore **measures, dimensions, and their relationships** to understand the data before building BI reports or dashboards.
+The purpose of this analysis is to explore **business measures and dimensions** to understand the data before building BI reports or dashboards.
 
 ---
 
-## Data Model
+## 🏗 Data Model
 
 **Fact Table**
 
-* `sales` – stores measurable business events such as sales amount and quantity.
+* `sales` – stores measurable business events such as **sales amount** and **quantity sold**.
 
 **Dimension Tables**
 
-* `customers` – customer related attributes.
-* `products` – product related attributes.
+* `customers` – contains customer related attributes.
+* `products` – contains product related attributes.
 
-This structure allows business metrics to be analyzed from different perspectives.
+This structure allows business metrics to be analyzed from multiple perspectives.
 
 ---
 
-## EDA Focus Areas
+# 🔎 EDA Focus Areas
 
-### Measures Exploration
+### 📏 Measures Exploration
 
-Understanding the main metrics stored in the **sales fact table**.
+Exploring the **key business metrics** stored in the `sales` fact table.
 
 Examples:
 
@@ -37,27 +37,27 @@ Examples:
 * total quantity sold
 * number of transactions
 
-This helps understand the **overall scale of business activity**.
+This helps understand the **overall business activity and scale of the dataset**.
 
 ---
 
-### Dimension Exploration
+### 🧩 Dimension Exploration
 
-Exploring the **dimension attributes themselves**.
+Exploring the **dimension attributes themselves** to understand the structure of categorical data.
 
 Examples:
 
-* distinct countries of customers
+* distinct customer countries
 * product categories
 * product names
 
-This helps understand **the variety and structure of dimension data**.
+This helps understand **the variety and composition of dimension data**.
 
 ---
 
-### Date Exploration
+### 📅 Date Exploration
 
-Analyzing sales across **time**.
+Analyzing how sales behave across **time**.
 
 Examples:
 
@@ -68,7 +68,7 @@ This helps observe **how business performance changes over time**.
 
 ---
 
-### Top N and Bottom N Analysis *(Dimension by Measure)*
+### 🏆 Top N & Bottom N Analysis *(Dimension by Measure)*
 
 Ranking **dimension entities using a business measure**.
 
@@ -77,24 +77,24 @@ Examples:
 * top products by sales
 * bottom customers by revenue
 
-This highlights **best and worst performing entities**.
+This highlights **best-performing and lowest-performing entities**.
 
 ---
 
-### Magnitude Analysis *(Measure by Dimension)*
+### 📊 Magnitude Analysis *(Measure by Dimension)*
 
-Analyzing **how a measure is distributed across dimensions**.
+Understanding **how a measure is distributed across dimensions**.
 
 Examples:
 
 * sales by product
 * sales by customer
 
-This helps understand **how much each dimension contributes to the overall metric**.
+This helps identify **how much each dimension contributes to the overall metric**.
 
 ---
 
-## Tools Used
+## 🛠 Tools Used
 
 * SQL
 * Dimensional Modeling
@@ -102,13 +102,14 @@ This helps understand **how much each dimension contributes to the overall metri
 
 ---
 
-## Outcome
+## 🎯 Outcome
 
-This exploration helps build a **clear understanding of measures, dimensions, and their relationships**, which is the first step before creating **BI dashboards and deeper business analysis**.
+This basic EDA helps build a **clear understanding of business metrics, dimension attributes, and their relationships**, forming a strong foundation for **BI dashboards and deeper business analysis**.
 
 ---
 
-## Author
+## 👨‍💻 Author
 
-SRILATHA KOLLI
+**[Your Name]**
+Aspiring **Business Intelligence Analyst**
 
