@@ -110,6 +110,6 @@ This basic EDA helps build a **clear understanding of business metrics, dimensio
 
 ## 👨‍💻 Author
 
-**[Your Name]**
-Aspiring **Business Intelligence Analyst**
+SRILATHA KOLLI
+
 
