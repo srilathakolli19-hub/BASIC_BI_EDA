@@ -2,9 +2,9 @@
 
 ## Overview
 
-This project presents **Basic Exploratory Data Analysis (EDA)** performed on tables from my gold layer of **Data Warehouse project**.
+This project presents **Basic Exploratory Data Analysis (EDA)** performed on views from my gold layer of my **Data Warehouse project**.
 
-The dataset follows a **dimensional modeling structure** consisting of a **fact table (`sales`)** and two **dimension tables (`customers`, `products`)**.
+The views follows a **dimensional modeling structure** consisting of a **fact table (`sales`)** and two **dimension tables (`customers`, `products`)**.
 
 The purpose of this analysis is to explore **business measures and dimensions** to understand the data before building BI reports or dashboards.
 
